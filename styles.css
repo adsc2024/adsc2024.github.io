@@ -52,6 +52,14 @@ body::before {
 	font-size:3rem;
 	font-family:sans-serif;
 	color:darkred;
+	margin:0;
+	
+}
+.intro-text h2{
+	
+	color:grey;
+	line-height:3rem;
+	margin:0;
 }
 .description{
 	font-style:italic;
@@ -60,7 +68,13 @@ body::before {
 	font-size:1.5rem;	
 }
 
+.content a:link{
+	color: #ffcc99;
+}
 
+.content a:visited{
+	color:grey;
+}
 
 /*submit button*/
 .btn{
@@ -197,16 +211,12 @@ li > a {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.em{
-	color:orange;
-}
+
 
 
 /*footer*/
 .masttail {
     margin: 0px;
-	
-
 }
 
 .img-sponsor {
@@ -228,3 +238,7 @@ li > a {
 	
 	
 }
+.em{
+ color:orange;
+}
+	
