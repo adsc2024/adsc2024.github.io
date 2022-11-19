@@ -1,0 +1,190 @@
+*:not[name='title']{
+	font-family:"Times New Roman";	
+}
+
+html{
+	scroll-behaviour:smooth;
+}
+
+
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-black);
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url(img/kyoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*main header*/
+
+section{
+	width:75%;
+	margin:auto;
+}
+.intro-text{
+	display:table-cell;
+	background:rgba(0,0,0,0.7);
+	padding:50px;
+	width:100%;
+	height:400px;
+	vertical-align:middle;
+}
+
+.intro-text h1{
+	font-size:4rem;
+	font-family:fantasy;
+	color:#80002a;
+	margin:0;
+	letter-spacing:0.4rem;
+	
+}
+.intro-text h2{
+	font-family:monospace;
+	color:grey;
+	margin:0;
+	letter-spacing:0;
+}
+.description{
+	margin-top:4rem;
+	font-style:italic;
+	color:white;
+	letter-spacing:3px;
+	font-size:1.5rem;	
+}
+
+.content a:link {
+	color: #ffcc99;
+}
+
+.content a:visited{
+	color:#ffcc99;
+}
+
+#no-underline{
+	text-decoration:none;
+	color:#cccccc;
+	font-weight:600;
+	font-style:italic;
+}
+/*submit button*/
+.btn{
+	margin-top:1rem;
+	display:inline-block;
+	padding:0.8rem 0.6rem;
+	border:3px solid #80002a;
+	font-size:1.2rem;
+	font-family:sans-serif;
+	border-radius:5px;
+	color: #990033;
+	margin-bottom:1rem;
+	text-decoration:none;
+	letter-spacing:0.1rem;
+	background:rgba(0, 0, 0, 0.8);
+}
+
+
+
+.btn:hover{
+	background-color:#80002a;
+	color:black;
+	
+}
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background:rgba(0,0,0,0.9);
+  color: #544F4E;
+  cursor: pointer;
+  padding:25px 50px 25px 50px;
+  width: 100%;
+  border: none;
+  text-align: justify;
+  outline: none;
+  font-size: 1.2rem;
+
+  
+  
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+  
+  
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	
+  
+  display: none;
+  overflow: hidden;
+  background:rgba(0,0,0,0.7);
+  text-align:justify;
+  padding:50px;
+  line-height:1.8;
+  color:white;
+  font-size:1.2rem;
+ justify-content:center;
+   
+
+  
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+/*footer*/
+
+.img-sponsor {
+    background-color: none;
+    opacity: 0.9;
+    filter: alpha(opacity=0);
+    max-width: 100%;
+    width: 100px;
+	height:100px;
+}
+.logo{
+	padding:50px;
+	background:rgba(0,0,0,0.7);
+}
+
+
+.em{
+ color:orange;
+}
+
+
+.dashed{
+	border-top: 3px dashed #bbb;
+}	
+
+
