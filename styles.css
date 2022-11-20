@@ -33,6 +33,7 @@ body::before {
 section{
 	width:75%;
 	margin:auto;
+	max-width:1400px;
 }
 .intro-text{
 	display:table-cell;
@@ -44,8 +45,8 @@ section{
 }
 
 .intro-text h1{
-	font-size:4rem;
-	font-family:fantasy;
+	font-size:3.2rem;
+	font-family:Tahoma;
 	color:#80002a;
 	margin:0;
 	letter-spacing:0.4rem;
@@ -188,3 +189,14 @@ section{
 }	
 
 
+@media(max-width: 700px) {
+  /* For mobile phones: */
+  section{
+    width: 100%;
+	max-width:700px;
+	
+  }
+  .intro-text p {
+	  font-size:1rem;
+  }
+  
