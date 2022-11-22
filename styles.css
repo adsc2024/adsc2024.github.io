@@ -29,6 +29,8 @@ body::before {
   background-position: center;
 }
 
+
+
 /*main header*/
 
 section{
@@ -36,6 +38,8 @@ section{
 	margin:auto;
 	max-width:75%;
 }
+
+
 
 
 .intro-text{
@@ -46,12 +50,16 @@ section{
 	vertical-align:middle;
 }
 
-@media only screen and (min-width: 768px){
+@media (min-width: 768px){
 	.intro-text{
-		width:100%;
-	margin-left:0;
-	margin-right:0;
-	}
+	margin:0;}
+	
+	.intro-text h1{
+	font-size:15px;}
+	margin:0;
+	.intro-text h2{
+	font-size:11px;}
+	margin:0;
 }
 
 .intro-text h1{
