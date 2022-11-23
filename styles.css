@@ -74,8 +74,18 @@ section{
 	letter-spacing:0.4rem;
 	
 }
-
-
+@media(max-width: 768px){
+	.intro-text h1{
+		font-family:arial;
+	font-size:3.2rem;
+	letter-spacing:0.1rem;
+	}
+	}
+@media(max-width: 768px){
+	.intro-text h2{
+	font-size:1rem;
+	}
+	}
 
 .intro-text h2{
 	font-family:monospace;
