@@ -33,13 +33,13 @@ body::before {
 
 /*main header*/
 
+
+
 section{
 	
 	margin:auto;
 	max-width:75%;
 }
-
-
 
 
 .intro-text{
@@ -50,17 +50,21 @@ section{
 	vertical-align:middle;
 }
 
-@media (min-width: 768px){
+@media(max-width: 768px){
+	section{
+	margin:0;
+	max-width:100%;
+	width:100%;
+	text-align:center;
+			}
+	}
+@media(max-width: 768px){
 	.intro-text{
-	margin:0;}
-	
-	.intro-text h1{
-	font-size:15px;}
-	margin:0;
-	.intro-text h2{
-	font-size:11px;}
-	margin:0;
-}
+	height:300px;
+	}
+	}
+
+
 
 .intro-text h1{
 	font-size:3.2rem;
@@ -70,12 +74,17 @@ section{
 	letter-spacing:0.4rem;
 	
 }
+
+
+
 .intro-text h2{
 	font-family:monospace;
 	color:grey;
 	margin:0;
 	letter-spacing:0;
 }
+
+
 .description{
 	margin-top:4rem;
 	font-style:italic;
@@ -84,6 +93,12 @@ section{
 	font-size:1.5rem;	
 }
 
+@media(max-width: 768px){
+	.description{
+	font-size:1rem;
+	text-align:justify;
+	}
+	}
 .content a:link {
 	color: #ffcc99;
 }
@@ -113,7 +128,12 @@ section{
 	letter-spacing:0.1rem;
 	background:rgba(0, 0, 0, 0.8);
 }
-
+@media(max-width: 768px){
+	.btn{
+	padding-left:2.8rem;
+	padding-right:2.6rem;
+	}
+	}
 
 
 .btn:hover{
