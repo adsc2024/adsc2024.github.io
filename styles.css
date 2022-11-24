@@ -240,4 +240,18 @@ color:white;
 	border-top: 3px dashed #bbb;
 }	
 
+.list {
+	text-align:left;
+	color:white;
+}
 
+@media(max-width: 768px){
+	.list{
+
+	text-align:left;
+	}
+	}
+	
+.underline{
+	text-decoration:underline solid;
+}
