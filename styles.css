@@ -175,7 +175,8 @@ input[name="tabset"] {
 input#tab1:checked ~ div.content#tab1,
 input#tab2:checked ~ div.content#tab2,
 input#tab3:checked ~ div.content#tab3,
-input#tab4:checked ~ div.content#tab4 {
+input#tab4:checked ~ div.content#tab4,
+input#tab5:checked ~ div.content#tab5{
   display: block;
 }
 
