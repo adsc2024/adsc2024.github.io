@@ -271,6 +271,7 @@ input#tab5:checked ~ div.content#tab5{
 
 #keynote_speaker{
 	position:absolute;
-	width: 100px;
-	height:100px;
+	width: 200px;
+	height:auto;
+	
 }
