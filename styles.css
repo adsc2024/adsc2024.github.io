@@ -270,7 +270,7 @@ input#tab5:checked ~ div.content#tab5{
 }
 
 #keynote_speaker{
-	position:absolute;
+	background-size:contains;
 	width: 200px;
 	height:auto;
 	
