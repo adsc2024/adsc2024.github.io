@@ -275,3 +275,34 @@ input#tab5:checked ~ div.content#tab5{
 	height:auto;
 	
 }
+
+ol {
+	color: white;
+}
+.past {
+	text-decoration: line-through;
+}
+.bold {
+	font-weight: bold;
+}
+.paper-authors {
+	display: block;
+/*	padding-bottom: 10px;*/
+}
+
+.program {
+	padding-left: 32px;
+	color: white;
+}
+.program .time {
+	padding-right: 20px;
+	vertical-align: top;
+	text-align: center;
+}
+.program-header td.time {
+	text-align: left;
+}
+
+.program-spacer td {
+	height: 16px;
+}
